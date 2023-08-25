@@ -19,4 +19,12 @@
     text-decoration: none;
   }
 
+  .navbarItem:hover {
+    color: var(--Red);
+  }
+
   
+
+
+
+
