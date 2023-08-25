@@ -1,0 +1,42 @@
+.articleContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .article {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+  }
+  
+  .heading {
+    color: var(--gray-1, #333);
+    font-family: Montserrat;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 96px; /* 100% */
+    letter-spacing: 6.24px;
+  }
+  
+  .servicesList {
+    font-size: 16px;
+    margin: 10px 0;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.84px;
+    text-transform: lowercase;
+  }
+  
+  .dot {
+    color: var(--red, #EB5757);
+  }
+  
+
+  
+  
+  
