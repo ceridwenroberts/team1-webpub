@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbarList {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbarItem {
+    font-size: 16px;
+    margin: 0 15px;
+    padding: 12px;
+    color: var(--Gray1);
+  }
+  
+  .navbarLink {
+    text-decoration: none;
+  }
+
+  .navbarItem:hover {
+    color: var(--Red);
+  }
+
+  
+
+
+
+
