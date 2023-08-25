@@ -6,8 +6,8 @@ import Navbar from './components/Navbar/Navbar'
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Qipper',
-  description: 'Digital Agency',
+  title: 'Team 1 - Webbpublicering',
+  description: 'Group assignment Webbpublicering, Frontend developer, Changemaker Educations',
 }
 
 export default function RootLayout({ children }) {
