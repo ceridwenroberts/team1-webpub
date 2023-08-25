@@ -36,6 +36,20 @@
     color: var(--red, #EB5757);
   }
   
+  .articleText {
+    font-size: 16px;
+  }
+  
+  .articleImage {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
   
   
   

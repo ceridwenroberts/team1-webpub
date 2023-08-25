@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Article.module.css';
-
+import articleImage from 'public/webbdesign.png'
 
 const title = "Qipper";
 const services = ["web", "site", "app"];
@@ -19,6 +19,9 @@ const Article = () => {
           <span>{services[2]}</span>
         </p>
         <p className={styles.articleText}>{articleText}</p>
+      </div>
+      <div className={styles.articleImage}>
+          <img src={articleImage} alt="Article" className={styles.image} />
       </div>
     </div>
   );
