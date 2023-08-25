@@ -6,7 +6,7 @@ export default function Logo() {
   return (
     <div>
       <Link href="/">
-        <Image src={LogoImg} alt="logo" style={{ width: "115px" }} />
+        <Image src={LogoImg} alt="logo" style={{ width: "70px", height:"36px" }} />
       </Link>
     </div>
   );
