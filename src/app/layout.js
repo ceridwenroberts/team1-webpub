@@ -1,6 +1,7 @@
 import './globals.css'
 import { Montserrat } from 'next/font/google'
 import Navbar from './components/Navbar/Navbar'
+import Article from './components/Article/Article'
 import Footer from './components/Footer/Footer'
 
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className={montserrat.className}>
         <header>
           <Navbar />
+          <Article />
         </header>
         {children}
         <footer>
